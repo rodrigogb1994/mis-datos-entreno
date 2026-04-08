@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-08T06:08:29.085893",
+    "last_updated": "2026-04-08T09:55:03.857678",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.98"
@@ -91,30 +91,30 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 79.2,
-        "delta_pct": null
+        "status": "green",
+        "value": 77.0,
+        "baseline_7d": 78.9,
+        "delta_pct": -2.4
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 43.3,
-        "delta_bpm": null
+        "status": "green",
+        "value": 44,
+        "baseline_7d": 43.4,
+        "delta_bpm": 0.6
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 7.18,
+        "quality": 2
       },
       "acwr": {
         "status": "green",
         "value": 0.84
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
-        "value_yesterday": 1.25
+        "status": "green",
+        "value": 0.96,
+        "value_yesterday": 1.26
       },
       "tsb": {
         "status": "green",
@@ -122,10 +122,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 6,
       "amber": 0,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Base",
@@ -135,7 +135,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -183,7 +183,7 @@
       "atl": 33.09,
       "tsb": 3.96,
       "ramp_rate": -1.26,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 237.1,
@@ -220,12 +220,12 @@
     },
     "current_metrics": {
       "weight_kg": 58.0,
-      "resting_hr": 41,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "resting_hr": 44,
+      "hrv": 77.0,
+      "sleep_quality": 2,
+      "sleep_hours": 7.18,
+      "sleep_formatted": "7h11m",
+      "sleep_score": 86.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -242,7 +242,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 154,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -254,14 +254,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "recovery_index_yesterday": 1.25,
-    "hrv_baseline_7d": 79.2,
-    "rhr_baseline_7d": 43.3,
-    "hrv_baseline_28d": 83.0,
+    "recovery_index": 0.96,
+    "recovery_index_yesterday": 1.26,
+    "hrv_baseline_7d": 78.9,
+    "rhr_baseline_7d": 43.4,
+    "hrv_baseline_28d": 82.8,
     "rhr_baseline_28d": 43.6,
-    "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_hrv": 77.0,
+    "latest_rhr": 44,
     "acwr": 0.84,
     "acwr_interpretation": "optimal",
     "monotony": 1.4,
@@ -273,7 +273,7 @@
     "multi_sport_detected": true,
     "strain": 332.0,
     "stress_tolerance": 2.4,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 2.5,
     "tss_7d_total": 237.0,
     "tss_28d_total": 1131.0,
     "zone_distribution_7d": {
@@ -438,19 +438,16 @@
         }
       }
     },
-    "consistency_index": 0.14,
+    "consistency_index": 0.25,
     "consistency_details": {
-      "planned_days": 7,
+      "planned_days": 4,
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
         "2026-04-02",
         "2026-04-03",
         "2026-04-04",
-        "2026-04-05",
-        "2026-04-06",
-        "2026-04-07",
-        "2026-04-08"
+        "2026-04-05"
       ],
       "completed_dates": [
         "2026-04-05"
@@ -469,11 +466,11 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 3,
-          "race_proximity": 32,
+          "hard_sessions_planned": 0,
+          "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
-          "plan_coverage_next_week": 1.8
+          "plan_coverage_current_week": 0.0,
+          "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -506,13 +503,13 @@
     "p_max": 540,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-08T06:08:29.084617",
+    "calculation_timestamp": "2026-04-08T09:55:03.856395",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "hrv_data_points": 7,
+      "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 31,
-      "planned_workouts_7d": 10,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2179,13 +2176,13 @@
     {
       "date": "2026-04-08",
       "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 44,
+      "hrv_rmssd": 77.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 7.18,
+      "sleep_formatted": "7h11m",
+      "sleep_quality": 2,
+      "sleep_score": 86.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -2205,7 +2202,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 154,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2217,86 +2214,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 101872406,
-      "date": "2026-04-08",
-      "name": "IntervalCoach - Endurance Ride",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 23,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- \u00a1Hola Rodrigo! \u00a1Hoy es un d\u00eda de resistencia! 5m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 22m 65-75% 85rpm\n\nCooldown\n- \u00a1Excelente trabajo, Rodrigo! Disfruta el estiramiento. 3m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 88975310,
-      "date": "2026-04-09",
-      "name": "Continuo R0",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 37,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "-90m z1"
-    },
-    {
-      "id": 102210930,
-      "date": "2026-04-10",
-      "name": "IntervalCoach - Endurance Ride",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 23,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- \u00a1Hola Rodrigo! Preparado para un largo aer\u00f3bico 5m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 22m 65-75% 85rpm\n\nCooldown\n- \u00a1Buen trabajo, Rodrigo! A rodar suave 3m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 88975258,
-      "date": "2026-04-11",
-      "name": "Continuo R0 + PMax",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 106,
-      "duration_hours": 1.88,
-      "duration_formatted": "1h52m32s",
-      "workout_summary": "1h @147W | 5m @190W | 5m @147W | 4\u00d78s / 3m rec | 30m @147W",
-      "has_terrain": false,
-      "description": "-60m 60%\n\n- 5m ramp 60-95% intensity=warmup\n\n-5m 60%\n\n4x\n-8s z6\n-3m z1\n\n\n-30m 60%"
-    },
-    {
-      "id": 88975288,
-      "date": "2026-04-12",
-      "name": "Continuo R0",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 61,
-      "duration_hours": 2.5,
-      "duration_formatted": "2h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "-150m z1"
-    },
-    {
-      "id": 88975048,
-      "date": "2026-04-13",
-      "name": "Continuo R0",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 49,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "-120m z1"
-    },
     {
       "id": 96099994,
       "date": "2026-04-13",
@@ -2335,85 +2252,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
-    },
-    {
-      "id": 88975569,
-      "date": "2026-04-14",
-      "name": "Interv\u00e1lico R3",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 82,
-      "duration_hours": 1.63,
-      "duration_formatted": "1h38m",
-      "workout_summary": "30m @147W | 5m @190W | 5m @147W | 4\u00d75m / 2m rec | 30m @147W",
-      "has_terrain": false,
-      "description": "-30m 60%\n\n- 5m ramp 60-95% intensity=warmup\n\n-5m 60%\n\n4x\n-5m ss\n-2m z2\n\n-30m 60%"
-    },
-    {
-      "id": 103114079,
-      "date": "2026-04-15",
-      "name": "IntervalCoach - Resistencia Larga",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 23,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- \u00a1Hola Rodrigo! Hoy toca resistencia. 5m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 22m 65-75% 85rpm\n\nCooldown\n- \u00a1Bien hecho, Rodrigo! A recuperar. 3m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 88975309,
-      "date": "2026-04-16",
-      "name": "Continuo R0",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 49,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-120m z1"
-    },
-    {
-      "id": 88976710,
-      "date": "2026-04-18",
-      "name": "Interv\u00e1lico PMax+R1",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 136,
-      "duration_hours": 2.38,
-      "duration_formatted": "2h22m36s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-60m 60%\n- 5m ramp 60-95% intensity=warmup\n-5m 60%"
-    },
-    {
-      "id": 88975287,
-      "date": "2026-04-19",
-      "name": "Continuo R0",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 74,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-180m z1"
-    },
-    {
-      "id": 88975052,
-      "date": "2026-04-20",
-      "name": "Continuo R0",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 49,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-120m z1"
     },
     {
       "id": 96099998,
@@ -2455,70 +2293,6 @@
       "description_preview": null
     },
     {
-      "id": 88975925,
-      "date": "2026-04-21",
-      "name": "Interv\u00e1lico R3",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 97,
-      "duration_hours": 1.77,
-      "duration_formatted": "1h46m",
-      "workout_summary": "30m @147W | 5m @190W | 5m @147W | 6\u00d74m / 2m rec | 30m @147W",
-      "has_terrain": false
-    },
-    {
-      "id": 88975311,
-      "date": "2026-04-23",
-      "name": "Continuo R0",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 49,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-120m z1"
-    },
-    {
-      "id": 88975259,
-      "date": "2026-04-25",
-      "name": "Interv\u00e1lico PMax+R1",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 148,
-      "duration_hours": 2.28,
-      "duration_formatted": "2h16m48s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-60m 60%\n- 5m ramp 60-95% intensity=warmup\n-5m 60%"
-    },
-    {
-      "id": 88975289,
-      "date": "2026-04-26",
-      "name": "Continuo R0",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 74,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-180m z1"
-    },
-    {
-      "id": 88975053,
-      "date": "2026-04-27",
-      "name": "Continuo R0",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 49,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-120m z1"
-    },
-    {
       "id": 96100000,
       "date": "2026-04-27",
       "name": "Weekly",
@@ -2530,19 +2304,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
-    },
-    {
-      "id": 96100013,
-      "date": "2026-04-27",
-      "name": "Semana de recuperaci\u00f3n",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "Enf\u00f3quese en esfuerzos m\u00e1s f\u00e1ciles, volumen reducido y permita que su cuerpo se adapte al estr\u00e9s del entrenamiento"
     },
     {
       "id": 96188629,
@@ -2569,83 +2330,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
-    },
-    {
-      "id": 96188663,
-      "date": "2026-04-27",
-      "name": "Semana de recuperaci\u00f3n",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "Enf\u00f3quese en esfuerzos m\u00e1s f\u00e1ciles, volumen reducido y permita que su cuerpo se adapte al estr\u00e9s del entrenamiento (Ciclismo, Correr, Nadar)"
-    },
-    {
-      "id": 88976366,
-      "date": "2026-04-28",
-      "name": "Interv\u00e1lico R3",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 108,
-      "duration_hours": 1.87,
-      "duration_formatted": "1h52m",
-      "workout_summary": "30m @147W | 5m @190W | 5m @147W | 6\u00d75m / 2m rec | 30m @147W",
-      "has_terrain": false
-    },
-    {
-      "id": 88975312,
-      "date": "2026-04-30",
-      "name": "Continuo R0",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 49,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-120m z1"
-    },
-    {
-      "id": 88976512,
-      "date": "2026-05-02",
-      "name": "Interv\u00e1lico PMax+R2",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 116,
-      "duration_hours": 1.89,
-      "duration_formatted": "1h53m24s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-45m 60%\n- 5m ramp 60-95% intensity=warmup\n-5m 60%"
-    },
-    {
-      "id": 88975290,
-      "date": "2026-05-03",
-      "name": "Continuo R0",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 61,
-      "duration_hours": 2.5,
-      "duration_formatted": "2h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-150m z1"
-    },
-    {
-      "id": 88975054,
-      "date": "2026-05-04",
-      "name": "Continuo R0",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 37,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-90m z1"
     },
     {
       "id": 96100002,
@@ -2685,82 +2369,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
-    },
-    {
-      "id": 96188658,
-      "date": "2026-05-04",
-      "name": "Training Plan",
-      "type": "PLAN",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "fase Build: Umbral, VO2 m\u00e1x, preparaci\u00f3n para la carrera"
-    },
-    {
-      "id": 88976367,
-      "date": "2026-05-05",
-      "name": "Interv\u00e1lico R3",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 80,
-      "duration_hours": 1.57,
-      "duration_formatted": "1h34m",
-      "workout_summary": "30m @147W | 5m @190W | 5m @147W | 4\u00d74m / 2m rec | 30m @147W",
-      "has_terrain": false
-    },
-    {
-      "id": 88975313,
-      "date": "2026-05-07",
-      "name": "Continuo R0",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 25,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-60m z1"
-    },
-    {
-      "id": 88975261,
-      "date": "2026-05-09",
-      "name": "Activaci\u00f3n",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 56,
-      "duration_hours": 1.01,
-      "duration_formatted": "1h24s",
-      "workout_summary": "30m @147W | 4\u00d71m / 1m rec | 4\u00d76s / 3m rec | 10m @147W",
-      "has_terrain": false
-    },
-    {
-      "id": 88977207,
-      "date": "2026-05-10",
-      "name": "Triatl\u00f3n Sprint Madrid",
-      "type": "RACE_A",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": null
-    },
-    {
-      "id": 89665114,
-      "date": "2026-05-10",
-      "name": "Triatl\u00f3n Madrid",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 63,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 20km maxeffort Z4"
     },
     {
       "id": 96188614,
@@ -2842,44 +2450,24 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 26,
-    "success": 6,
-    "patternA": 6,
+    "attempted": 0,
+    "success": 0,
+    "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
-    "bail_no_match": 20
+    "bail_no_workout_doc": 0,
+    "bail_no_match": 0
   },
   "weekly_summary": {
     "total_training_hours": 8.33,
     "total_training_formatted": "8h19m",
     "total_tss": 237,
     "activities_count": 7,
-    "avg_hrv": 79.2,
-    "avg_resting_hr": 43.3
+    "avg_hrv": 78.9,
+    "avg_resting_hr": 43.4
   },
   "race_calendar": {
-    "next_race": {
-      "name": "Triatl\u00f3n Sprint Madrid",
-      "date": "2026-05-10",
-      "category": "RACE_A",
-      "type": "Ride",
-      "days_until": 32,
-      "moving_time_seconds": null,
-      "distance_meters": 20000.0,
-      "has_terrain": false
-    },
-    "all_races": [
-      {
-        "name": "Triatl\u00f3n Sprint Madrid",
-        "date": "2026-05-10",
-        "category": "RACE_A",
-        "type": "Ride",
-        "days_until": 32,
-        "moving_time_seconds": null,
-        "distance_meters": 20000.0,
-        "has_terrain": false
-      }
-    ],
+    "next_race": null,
+    "all_races": [],
     "taper_alert": {
       "active": false
     },
