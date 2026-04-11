@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T17:20:51.654018",
+  "generated_at": "2026-04-11T19:25:57.842296",
   "version": "3.98",
   "script_hash": "02e4f2d6c77c",
   "scan_hours": 72,
@@ -381,6 +381,26 @@
           "avg_hr": 130,
           "max_hr": 175,
           "avg_cadence": 77.68874,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i138986604",
+      "date": "2026-04-11",
+      "type": "Run",
+      "name": "Madrid Carrera",
+      "interval_summary": [
+        "1x 1h10m 5:11"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "4248s@135bpm80rpm",
+          "duration_secs": 4248,
+          "avg_hr": 135,
+          "max_hr": 161,
+          "avg_cadence": 80.23465,
           "zone": 1
         }
       ]
