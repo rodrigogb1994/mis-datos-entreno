@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-13T20:12:15.718127",
+    "last_updated": "2026-04-13T22:31:35.330041",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.98"
@@ -108,7 +108,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 0.6
+        "value": 1.4
       }
     },
     "signal_summary": {
@@ -163,10 +163,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 37.1,
-      "atl": 36.5,
-      "tsb": 0.6,
-      "ramp_rate": -0.7,
+      "ctl": 36.94,
+      "atl": 35.59,
+      "tsb": 1.35,
+      "ramp_rate": -0.86,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -226,7 +226,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 14034,
+      "steps": 16058,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -435,7 +435,7 @@
       "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": -0.7,
+          "ctl_slope": -0.75,
           "acwr_trend": "stable",
           "hard_day_pattern": 0.2,
           "weeks_available": 4
@@ -446,7 +446,7 @@
           "race_proximity": null,
           "next_week_load": null,
           "plan_coverage_current_week": 1.4,
-          "plan_coverage_next_week": 0.6
+          "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -479,7 +479,7 @@
     "p_max": 539,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-13T20:12:15.288216",
+    "calculation_timestamp": "2026-04-13T22:31:35.328767",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2300,7 +2300,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 14034,
+      "steps": 16058,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2445,6 +2445,20 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
+    },
+    {
+      "id": 104230044,
+      "date": "2026-04-21",
+      "name": "IntervalCoach - Rodaje Largo Suave",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- \u00a1Hola Rodrigo! Prep\u00e1rate para rodar largo y suave. 9m ramp 45-75% 85rpm\nMain Set"
     },
     {
       "id": 96100000,
@@ -2656,12 +2670,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
+    "attempted": 5,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 4
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 11.02,
