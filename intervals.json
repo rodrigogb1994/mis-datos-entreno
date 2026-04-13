@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T23:53:27.962957",
+  "generated_at": "2026-04-13T07:26:27.836276",
   "version": "3.98",
   "script_hash": "02e4f2d6c77c",
   "scan_hours": 72,
@@ -75,34 +75,6 @@
           "duration_secs": 1,
           "avg_hr": 86,
           "max_hr": 86,
-          "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i137227470",
-      "date": "2026-04-04",
-      "type": "Run",
-      "name": "Carrera de noche",
-      "interval_summary": [
-        "1x 1h13m 5:06"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "4419s@132bpm83rpm",
-          "duration_secs": 4419,
-          "avg_hr": 132,
-          "max_hr": 151,
-          "avg_cadence": 83.405266,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 136,
-          "max_hr": 136,
-          "avg_cadence": 85.0,
           "zone": 1
         }
       ]
