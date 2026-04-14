@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T22:31:35.329875",
+  "generated_at": "2026-04-14T06:09:04.787932",
   "version": "3.98",
   "script_hash": "02e4f2d6c77c",
   "scan_hours": 72,
@@ -45,36 +45,6 @@
           "avg_hr": 131,
           "max_hr": 146,
           "avg_cadence": 81.30977,
-          "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i137349544",
-      "date": "2026-04-05",
-      "type": "Ride",
-      "name": "Bicicleta por la ma\u00f1ana",
-      "interval_summary": [
-        "1x 2h9m 100bpm"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 7
-        },
-        {
-          "type": "WORK",
-          "label": "7741s@100bpm",
-          "duration_secs": 7741,
-          "avg_hr": 100,
-          "max_hr": 129,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 86,
-          "max_hr": 86,
           "zone": 1
         }
       ]
