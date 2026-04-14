@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-14T10:47:48.390493",
+    "last_updated": "2026-04-14T15:51:12.336289",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.98"
@@ -166,8 +166,8 @@
       "ctl": 36.07,
       "atl": 30.85,
       "tsb": 5.22,
-      "ramp_rate": -0.84,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": -1.87,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 236.3,
@@ -226,7 +226,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 680,
+      "steps": 1202,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -422,18 +422,12 @@
         }
       }
     },
-    "consistency_index": 0.0,
+    "consistency_index": null,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 0,
       "completed_days": 2,
       "matched_days": 0,
-      "planned_dates": [
-        "2026-04-14"
-      ],
-      "completed_dates": [
-        "2026-04-08",
-        "2026-04-10"
-      ]
+      "note": "No planned workouts in period"
     },
     "phase_detection": {
       "phase": "Base",
@@ -448,11 +442,11 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 4,
+          "hard_sessions_planned": 0,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 0.8
+          "plan_coverage_current_week": 0.0,
+          "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -485,13 +479,13 @@
     "p_max": 538,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-14T10:47:48.389203",
+    "calculation_timestamp": "2026-04-14T15:51:12.335097",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 8,
       "activities_28d": 33,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2261,7 +2255,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 680,
+      "steps": 1202,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2273,62 +2267,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 103969444,
-      "date": "2026-04-14",
-      "name": "IntervalCoach - Rodaje Constante",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- \u00a1Hola Rodrigo! Preparados para rodar y girar. 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- \u00a1Buen trabajo, Rodrigo! A disfrutar la bajada. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 103447958,
-      "date": "2026-04-17",
-      "name": "IntervalCoach - Fat Max",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 22,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- \u00a1Hola Rodrigo! \u00a1A darle duro a la bici! 5m ramp 45-75% 85rpm\n\nMain Set\n- Fat Max 22m 67-72% 85rpm\n\nCooldown\n- \u00a1Bien hecho, Rodrigo! A relajar las piernas. 3m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 103969450,
-      "date": "2026-04-18",
-      "name": "IntervalCoach - Resistencia Larga",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 82,
-      "duration_hours": 1.83,
-      "duration_formatted": "1h50m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- \u00a1Hola Rodrigo! Preparados para un largo d\u00eda de resistencia. 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 21m 65% 85rpm\n- Build 21m 67% 88rpm\n- Upper Z2 21m 70-74% 90rpm\n- Cruise 22m 74-70% 88rpm\n\nCooldown\n- \u00a1Gran trabajo, Rodrigo! Disfruta del rodaje suave. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
-    {
-      "id": 103969452,
-      "date": "2026-04-19",
-      "name": "IntervalCoach - Resistencia con cambios",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 127,
-      "duration_hours": 2.75,
-      "duration_formatted": "2h45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- \u00a1Hola Rodrigo! Hoy toca resistencia con cambios de ritmo. 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 35m 65% 85rpm\n- Build 35m 67% 88rpm\n- Upper Z2 35m 70-74% 90rpm\n- Cruise 35m 74-70% 88rpm\n\nCooldown\n- \u00a1Bien hecho, Rodrigo! A rodar suave ahora. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
-    },
     {
       "id": 96099998,
       "date": "2026-04-20",
@@ -2367,20 +2305,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
-    },
-    {
-      "id": 104230044,
-      "date": "2026-04-21",
-      "name": "IntervalCoach - Rodaje Largo Suave",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 45,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- \u00a1Hola Rodrigo! Prep\u00e1rate para rodar largo y suave. 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- \u00a1Buen trabajo, Rodrigo! Disfruta la recuperaci\u00f3n activa. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
       "id": 96100000,
@@ -2592,12 +2516,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 0,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 5
+    "bail_no_match": 0
   },
   "weekly_summary": {
     "total_training_hours": 10.02,
