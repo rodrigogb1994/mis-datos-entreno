@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T15:51:12.336135",
+  "generated_at": "2026-04-14T19:54:48.093101",
   "version": "3.98",
   "script_hash": "02e4f2d6c77c",
   "scan_hours": 72,
@@ -363,6 +363,30 @@
           "avg_hr": 119,
           "max_hr": 132,
           "avg_cadence": 80.51469,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i139803957",
+      "date": "2026-04-14",
+      "type": "Run",
+      "name": "Cuenca Carrera",
+      "interval_summary": [
+        "1x 1h2m 5:20"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5
+        },
+        {
+          "type": "WORK",
+          "label": "3744s@131bpm80rpm",
+          "duration_secs": 3744,
+          "avg_hr": 131,
+          "max_hr": 157,
+          "avg_cadence": 79.56637,
           "zone": 1
         }
       ]
