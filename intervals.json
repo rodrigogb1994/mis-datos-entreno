@@ -1,71 +1,10 @@
 {
-  "generated_at": "2026-04-25T23:57:07.374045",
+  "generated_at": "2026-04-26T06:30:36.074327",
   "version": "3.98",
   "script_hash": "02e4f2d6c77c",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i140639716",
-      "date": "2026-04-17",
-      "type": "Ride",
-      "name": "Bicicleta por la tarde",
-      "interval_summary": [
-        "1x 13m44s 105bpm",
-        "4x 10m3s 130bpm",
-        "1x 3m14s 126bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "824s@105bpm",
-          "duration_secs": 824,
-          "avg_hr": 105,
-          "max_hr": 132,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "603s@130bpm",
-          "duration_secs": 644,
-          "avg_hr": 130,
-          "max_hr": 153,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "603s@130bpm",
-          "duration_secs": 587,
-          "avg_hr": 129,
-          "max_hr": 148,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "603s@130bpm",
-          "duration_secs": 543,
-          "avg_hr": 130,
-          "max_hr": 154,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "603s@130bpm",
-          "duration_secs": 639,
-          "avg_hr": 130,
-          "max_hr": 154,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "194s@126bpm",
-          "duration_secs": 194,
-          "avg_hr": 126,
-          "max_hr": 147,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i140885876",
       "date": "2026-04-18",
