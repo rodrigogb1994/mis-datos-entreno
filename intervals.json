@@ -1,36 +1,10 @@
 {
-  "generated_at": "2026-04-30T23:38:00.084225",
+  "generated_at": "2026-05-01T07:52:05.904350",
   "version": "3.98",
   "script_hash": "02e4f2d6c77c",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i142120515",
-      "date": "2026-04-22",
-      "type": "Ride",
-      "name": "Bicicleta por la tarde",
-      "interval_summary": [
-        "1x 2h12m 112bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "7921s@112bpm",
-          "duration_secs": 7921,
-          "avg_hr": 112,
-          "max_hr": 145,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 120,
-          "max_hr": 120,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i142322103",
       "date": "2026-04-23",
