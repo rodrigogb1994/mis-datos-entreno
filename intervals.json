@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T16:29:52.564165",
+  "generated_at": "2026-05-05T20:17:14.557116",
   "version": "3.98",
   "script_hash": "02e4f2d6c77c",
   "scan_hours": 72,
@@ -1287,6 +1287,215 @@
           "avg_hr": 125,
           "max_hr": 125,
           "avg_cadence": 81.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i145712795",
+      "date": "2026-05-05",
+      "type": "Run",
+      "name": "Carrera de tarde",
+      "interval_summary": [
+        "7x 5m7s 5:07",
+        "1x 19m20s 5:05",
+        "1x 10m12s 5:14",
+        "1x 13s 5:25"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "307s@128bpm81rpm",
+          "duration_secs": 316,
+          "avg_hr": 116,
+          "max_hr": 128,
+          "avg_cadence": 81.762985,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "307s@128bpm81rpm",
+          "duration_secs": 304,
+          "avg_hr": 128,
+          "max_hr": 131,
+          "avg_cadence": 81.11184,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "307s@128bpm81rpm",
+          "duration_secs": 304,
+          "avg_hr": 129,
+          "max_hr": 131,
+          "avg_cadence": 80.851974,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1160s@127bpm81rpm",
+          "duration_secs": 1160,
+          "avg_hr": 127,
+          "max_hr": 133,
+          "avg_cadence": 80.66229,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "307s@128bpm81rpm",
+          "duration_secs": 297,
+          "avg_hr": 133,
+          "max_hr": 137,
+          "avg_cadence": 80.54208,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "307s@128bpm81rpm",
+          "duration_secs": 302,
+          "avg_hr": 134,
+          "max_hr": 141,
+          "avg_cadence": 80.72517,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "307s@128bpm81rpm",
+          "duration_secs": 299,
+          "avg_hr": 134,
+          "max_hr": 139,
+          "avg_cadence": 81.15385,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "612s@127bpm80rpm",
+          "duration_secs": 612,
+          "avg_hr": 127,
+          "max_hr": 137,
+          "avg_cadence": 79.91401,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "307s@128bpm81rpm",
+          "duration_secs": 326,
+          "avg_hr": 124,
+          "max_hr": 129,
+          "avg_cadence": 80.94785,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "13s@122bpm80rpm",
+          "duration_secs": 13,
+          "avg_hr": 122,
+          "max_hr": 123,
+          "avg_cadence": 79.76923,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 122,
+          "max_hr": 122,
+          "avg_cadence": 80.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i145712772",
+      "date": "2026-05-02",
+      "type": "Run",
+      "name": "Carrera de noche",
+      "interval_summary": [
+        "1x 6m21s 6:21",
+        "1x 4m54s 6:15"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "381s@129bpm82rpm",
+          "duration_secs": 381,
+          "avg_hr": 129,
+          "max_hr": 137,
+          "avg_cadence": 82.24,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "294s@134bpm82rpm",
+          "duration_secs": 294,
+          "avg_hr": 134,
+          "max_hr": 142,
+          "avg_cadence": 81.77133,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i145712750",
+      "date": "2026-05-02",
+      "type": "Run",
+      "name": "Hoz del Hu\u00e9car 2026",
+      "interval_summary": [
+        "1x 50m54s 3:39"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3054s@178bpm88rpm",
+          "duration_secs": 3054,
+          "avg_hr": 178,
+          "max_hr": 185,
+          "avg_cadence": 88.258095,
+          "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i145712731",
+      "date": "2026-05-02",
+      "type": "Run",
+      "name": "Carrera de noche",
+      "interval_summary": [
+        "1x 6m27s 5:02",
+        "1x 5m14s 5:13",
+        "1x 79s 5:41"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "387s@134bpm82rpm",
+          "duration_secs": 387,
+          "avg_hr": 134,
+          "max_hr": 161,
+          "avg_cadence": 81.84354,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "314s@143bpm80rpm",
+          "duration_secs": 314,
+          "avg_hr": 143,
+          "max_hr": 148,
+          "avg_cadence": 80.29936,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "79s@139bpm80rpm",
+          "duration_secs": 79,
+          "avg_hr": 139,
+          "max_hr": 142,
+          "avg_cadence": 80.139244,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 140,
+          "max_hr": 140,
           "zone": 1
         }
       ]
