@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T05:54:19.585664",
+  "generated_at": "2026-05-18T09:36:52.675725",
   "version": "3.98",
   "script_hash": "02e4f2d6c77c",
   "scan_hours": 72,
@@ -149,6 +149,44 @@
           "max_hr": 127,
           "avg_cadence": 25.841667,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i149306039",
+      "date": "2026-05-16",
+      "type": "Run",
+      "name": "Carrera de ma\u00f1ana",
+      "interval_summary": [
+        "1x 4m27s 4:27",
+        "1x 94s 3:56"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "267s@152bpm84rpm",
+          "duration_secs": 267,
+          "avg_hr": 152,
+          "max_hr": 166,
+          "avg_cadence": 83.66795,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "94s@158bpm85rpm",
+          "duration_secs": 94,
+          "avg_hr": 158,
+          "max_hr": 167,
+          "avg_cadence": 84.95744,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 151,
+          "max_hr": 151,
+          "avg_cadence": 84.0,
+          "zone": 2
         }
       ]
     }
