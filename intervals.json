@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T17:28:41.675098",
+  "generated_at": "2026-05-19T19:25:09.722921",
   "version": "3.98",
   "script_hash": "02e4f2d6c77c",
   "scan_hours": 72,
@@ -298,6 +298,36 @@
           "avg_hr": 132,
           "max_hr": 134,
           "avg_cadence": 78.702705,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i149784510",
+      "date": "2026-05-19",
+      "type": "Run",
+      "name": "Carrera de tarde",
+      "interval_summary": [
+        "1x 42m37s 5:19",
+        "1x 28m9s 5:21"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2557s@128bpm80rpm",
+          "duration_secs": 2557,
+          "avg_hr": 128,
+          "max_hr": 163,
+          "avg_cadence": 79.68883,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1689s@149bpm81rpm",
+          "duration_secs": 1689,
+          "avg_hr": 149,
+          "max_hr": 174,
+          "avg_cadence": 81.01783,
           "zone": 1
         }
       ]
