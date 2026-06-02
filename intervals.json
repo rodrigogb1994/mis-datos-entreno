@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T11:40:46.790427",
+  "generated_at": "2026-06-02T15:45:20.998424",
   "version": "3.98",
   "script_hash": "02e4f2d6c77c",
   "scan_hours": 72,
@@ -337,6 +337,25 @@
           "avg_hr": 140,
           "max_hr": 145,
           "avg_cadence": 79.701195,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i153525116",
+      "date": "2026-06-02",
+      "type": "Ride",
+      "name": "Lunch Ciclismo",
+      "interval_summary": [
+        "1x 1h53m 111bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "6796s@111bpm",
+          "duration_secs": 6796,
+          "avg_hr": 111,
+          "max_hr": 153,
           "zone": 1
         }
       ]
