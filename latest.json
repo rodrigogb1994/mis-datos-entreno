@@ -70,12 +70,31 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-07T13:32:17.724595",
+    "last_updated": "2026-07-07T16:09:12.541015",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.98"
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "metric": "race_week",
+      "value": 0,
+      "severity": "info",
+      "threshold": "RACE_A within 7 days",
+      "context": "Race week D-0 of 'Tour de France 2026 \u2014 Stage 4: Carcassonne \u2192 Foix'. Today: Race day, 0-0 TSS. Race effort",
+      "persistence_days": null,
+      "tier": 1
+    },
+    {
+      "metric": "race_week_tsb",
+      "value": -3.9,
+      "severity": "warning",
+      "threshold": "TSB target 10-25",
+      "context": "Projected race-day TSB -3.9 is below target range 10-25. Consider additional rest to reach target.",
+      "persistence_days": null,
+      "tier": 1
+    }
+  ],
   "readiness_decision": {
     "recommendation": "go",
     "priority": 3,
@@ -94,7 +113,7 @@
       },
       "sleep": {
         "status": "green",
-        "hours": 8.17,
+        "hours": 7.88,
         "quality": null
       },
       "acwr": {
@@ -118,14 +137,14 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Base",
+      "phase": "Taper",
       "phase_week": 1,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "amber_threshold": 1,
+      "modifier_applied": "race_week_tightened"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 6 green, 0 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 1), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -213,9 +232,9 @@
       "resting_hr": 49,
       "hrv": 82.0,
       "sleep_quality": null,
-      "sleep_hours": 8.17,
-      "sleep_formatted": "8h10m",
-      "sleep_score": null,
+      "sleep_hours": 7.88,
+      "sleep_formatted": "7h53m",
+      "sleep_score": 82.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -232,7 +251,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 390,
+      "steps": 2786,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -240,7 +259,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 81.0
     }
   },
   "derived_metrics": {
@@ -436,10 +455,10 @@
       "note": "No planned workouts in period"
     },
     "phase_detection": {
-      "phase": "Base",
+      "phase": "Taper",
       "confidence": "medium",
       "reason_codes": [
-        "NO_PLANNED_WORKOUTS"
+        "RACE_IMMINENT"
       ],
       "basis": {
         "stream_1": {
@@ -450,10 +469,10 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
-          "race_proximity": null,
+          "hard_sessions_planned": 1,
+          "race_proximity": 0,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -464,9 +483,9 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Base",
+    "phase_detected": "Taper",
     "phase_triggers": [
-      "NO_PLANNED_WORKOUTS"
+      "RACE_IMMINENT"
     ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
@@ -489,13 +508,13 @@
     "p_max": 506,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-07T13:32:17.505921",
+    "calculation_timestamp": "2026-07-07T16:09:12.539651",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 9,
       "activities_28d": 39,
-      "planned_workouts_7d": 0,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2266,10 +2285,10 @@
       "resting_hr": 51,
       "hrv_rmssd": 67.0,
       "hrv_sdnn": null,
-      "sleep_hours": 7.55,
-      "sleep_formatted": "7h33m",
+      "sleep_hours": 7.37,
+      "sleep_formatted": "7h22m",
       "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_score": 88.0,
       "mental_energy": null,
       "avg_sleeping_hr": 50.0,
       "vo2max": null,
@@ -2289,7 +2308,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6353,
+      "steps": 10868,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2297,7 +2316,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 83.0
     },
     {
       "date": "2026-07-02",
@@ -2305,10 +2324,10 @@
       "resting_hr": 50,
       "hrv_rmssd": 66.0,
       "hrv_sdnn": null,
-      "sleep_hours": 7.75,
-      "sleep_formatted": "7h45m",
+      "sleep_hours": 7.38,
+      "sleep_formatted": "7h23m",
       "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_score": 87.0,
       "mental_energy": null,
       "avg_sleeping_hr": 48.0,
       "vo2max": null,
@@ -2328,7 +2347,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 11751,
+      "steps": 8580,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2336,7 +2355,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 82.0
     },
     {
       "date": "2026-07-03",
@@ -2344,10 +2363,10 @@
       "resting_hr": 49,
       "hrv_rmssd": 86.0,
       "hrv_sdnn": null,
-      "sleep_hours": 7.48,
-      "sleep_formatted": "7h29m",
+      "sleep_hours": 7.35,
+      "sleep_formatted": "7h21m",
       "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_score": 90.0,
       "mental_energy": null,
       "avg_sleeping_hr": 47.0,
       "vo2max": null,
@@ -2367,7 +2386,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5763,
+      "steps": 4662,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2375,7 +2394,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 84.0
     },
     {
       "date": "2026-07-04",
@@ -2383,12 +2402,12 @@
       "resting_hr": 47,
       "hrv_rmssd": 82.0,
       "hrv_sdnn": null,
-      "sleep_hours": 5.9,
-      "sleep_formatted": "5h54m",
+      "sleep_hours": 5.65,
+      "sleep_formatted": "5h39m",
       "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_score": 72.0,
       "mental_energy": null,
-      "avg_sleeping_hr": 45.0,
+      "avg_sleeping_hr": 46.0,
       "vo2max": null,
       "fatigue": null,
       "soreness": null,
@@ -2406,7 +2425,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6836,
+      "steps": 10083,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2414,7 +2433,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 76.0
     },
     {
       "date": "2026-07-05",
@@ -2422,12 +2441,12 @@
       "resting_hr": 48,
       "hrv_rmssd": 84.0,
       "hrv_sdnn": null,
-      "sleep_hours": 8.02,
-      "sleep_formatted": "8h1m",
+      "sleep_hours": 7.75,
+      "sleep_formatted": "7h45m",
       "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_score": 85.0,
       "mental_energy": null,
-      "avg_sleeping_hr": 45.0,
+      "avg_sleeping_hr": 46.0,
       "vo2max": null,
       "fatigue": null,
       "soreness": null,
@@ -2445,7 +2464,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 14888,
+      "steps": 10682,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2453,7 +2472,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 83.0
     },
     {
       "date": "2026-07-06",
@@ -2461,49 +2480,10 @@
       "resting_hr": 50,
       "hrv_rmssd": 89.0,
       "hrv_sdnn": null,
-      "sleep_hours": 8.05,
-      "sleep_formatted": "8h3m",
+      "sleep_hours": 7.83,
+      "sleep_formatted": "7h50m",
       "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": 47.0,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": 14828,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
-    {
-      "date": "2026-07-07",
-      "weight_kg": null,
-      "resting_hr": 49,
-      "hrv_rmssd": 82.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 8.17,
-      "sleep_formatted": "8h10m",
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_score": 88.0,
       "mental_energy": null,
       "avg_sleeping_hr": 48.0,
       "vo2max": null,
@@ -2523,7 +2503,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 390,
+      "steps": 11612,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2531,10 +2511,64 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 84.0
+    },
+    {
+      "date": "2026-07-07",
+      "weight_kg": null,
+      "resting_hr": 49,
+      "hrv_rmssd": 82.0,
+      "hrv_sdnn": null,
+      "sleep_hours": 7.88,
+      "sleep_formatted": "7h53m",
+      "sleep_quality": null,
+      "sleep_score": 82.0,
+      "mental_energy": null,
+      "avg_sleeping_hr": 48.0,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": 2786,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": 81.0
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 121187423,
+      "date": "2026-07-07",
+      "name": "Tour de France 2026 \u2014 Stage 4: Carcassonne \u2192 Foix",
+      "type": "RACE_A",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "13:25",
+      "description": ""
+    }
+  ],
   "workout_summary_stats": {
     "attempted": 0,
     "success": 0,
@@ -2552,13 +2586,86 @@
     "avg_resting_hr": 49.1
   },
   "race_calendar": {
-    "next_race": null,
-    "all_races": [],
+    "next_race": {
+      "name": "Tour de France 2026 \u2014 Stage 4: Carcassonne \u2192 Foix",
+      "date": "2026-07-07",
+      "category": "RACE_A",
+      "type": "Ride",
+      "days_until": 0,
+      "moving_time_seconds": null,
+      "distance_meters": null,
+      "has_terrain": false,
+      "start_time": "13:25"
+    },
+    "all_races": [
+      {
+        "name": "Tour de France 2026 \u2014 Stage 4: Carcassonne \u2192 Foix",
+        "date": "2026-07-07",
+        "category": "RACE_A",
+        "type": "Ride",
+        "days_until": 0,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "has_terrain": false,
+        "start_time": "13:25"
+      }
+    ],
     "taper_alert": {
       "active": false
     },
     "race_week": {
-      "active": false
+      "active": true,
+      "event_name": "Tour de France 2026 \u2014 Stage 4: Carcassonne \u2192 Foix",
+      "event_date": "2026-07-07",
+      "event_category": "RACE_A",
+      "event_type": "Ride",
+      "event_duration_class": "long_endurance",
+      "event_moving_time_seconds": null,
+      "days_until_event": 0,
+      "current_day": "D-0",
+      "ctl_baseline": 28.0,
+      "normal_weekly_tss": 195.9,
+      "race_week_tss_budget": {
+        "min": 78,
+        "max": 108
+      },
+      "race_week_tss_spent": 189,
+      "race_week_tss_remaining": {
+        "min": 0,
+        "max": 0
+      },
+      "projected_race_day_tsb": -3.9,
+      "tsb_target_range": {
+        "min": 10,
+        "max": 25
+      },
+      "today": {
+        "label": "Race day",
+        "load_target_tss": {
+          "min": 0,
+          "max": 0
+        },
+        "zones": "Race effort",
+        "purpose": "Go/no-go assessment. Execute race plan."
+      },
+      "carb_loading": {
+        "applicable": true,
+        "active": true,
+        "starts": "D-4",
+        "start_date": "2026-07-03",
+        "note": "10-12 g\u00b7kg\u207b\u00b9/day. No depletion phase needed."
+      },
+      "opener": {
+        "day": "D-2",
+        "date": "2026-07-05",
+        "intensity": "lighter"
+      },
+      "go_no_go": {
+        "tsb_status": "flag",
+        "notes": [
+          "Projected race-day TSB -3.9 is significantly below target range 10-25. Fatigue may impact performance."
+        ]
+      }
     }
   }
 }
