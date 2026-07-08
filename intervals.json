@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T18:11:54.640579",
+  "generated_at": "2026-07-08T19:53:40.312590",
   "version": "3.98",
   "script_hash": "02e4f2d6c77c",
   "scan_hours": 72,
@@ -1106,6 +1106,32 @@
           "duration_secs": 1,
           "avg_hr": 138,
           "max_hr": 138,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i163972362",
+      "date": "2026-07-08",
+      "type": "Ride",
+      "name": "Night Ciclismo",
+      "interval_summary": [
+        "1x 1h37m 121bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "5827s@121bpm",
+          "duration_secs": 5827,
+          "avg_hr": 121,
+          "max_hr": 183,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 100,
+          "max_hr": 100,
           "zone": 1
         }
       ]
