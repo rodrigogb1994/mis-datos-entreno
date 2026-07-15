@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T20:47:50.193600",
+  "generated_at": "2026-07-15T21:44:49.796252",
   "version": "3.98",
   "script_hash": "02e4f2d6c77c",
   "scan_hours": 72,
@@ -1310,6 +1310,25 @@
           "avg_hr": 111,
           "max_hr": 117,
           "avg_cadence": 23.877777,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i166122007",
+      "date": "2026-07-15",
+      "type": "Ride",
+      "name": "Evening Ciclismo",
+      "interval_summary": [
+        "1x 1h45m 95bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "6325s@95bpm",
+          "duration_secs": 6325,
+          "avg_hr": 95,
+          "max_hr": 131,
           "zone": 1
         }
       ]
