@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T18:54:32.979892",
+  "generated_at": "2026-07-22T20:04:35.607737",
   "version": "3.98",
   "script_hash": "02e4f2d6c77c",
   "scan_hours": 72,
@@ -1107,6 +1107,25 @@
           "avg_hr": 141,
           "max_hr": 161,
           "avg_cadence": 79.43429,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i168184803",
+      "date": "2026-07-22",
+      "type": "Ride",
+      "name": "Bicicleta al anochecer",
+      "interval_summary": [
+        "1x 1h16m 111bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "4568s@111bpm",
+          "duration_secs": 4568,
+          "avg_hr": 111,
+          "max_hr": 146,
           "zone": 1
         }
       ]
