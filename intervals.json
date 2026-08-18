@@ -1,92 +1,10 @@
 {
-  "generated_at": "2026-08-17T23:55:46.669557",
+  "generated_at": "2026-08-18T00:37:51.334675",
   "version": "3.98",
   "script_hash": "02e4f2d6c77c",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i174310295",
-      "date": "2026-08-09",
-      "type": "Run",
-      "name": "Carrera nocturna",
-      "interval_summary": [
-        "6x 5m18s 5:18",
-        "1x 40s 5:19"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "318s@127bpm78rpm",
-          "duration_secs": 318,
-          "avg_hr": 119,
-          "max_hr": 131,
-          "avg_cadence": 79.102234,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "318s@127bpm78rpm",
-          "duration_secs": 314,
-          "avg_hr": 128,
-          "max_hr": 134,
-          "avg_cadence": 78.248405,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "318s@127bpm78rpm",
-          "duration_secs": 319,
-          "avg_hr": 130,
-          "max_hr": 136,
-          "avg_cadence": 77.61128,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "318s@127bpm78rpm",
-          "duration_secs": 317,
-          "avg_hr": 126,
-          "max_hr": 137,
-          "avg_cadence": 78.13249,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "318s@127bpm78rpm",
-          "duration_secs": 321,
-          "avg_hr": 131,
-          "max_hr": 137,
-          "avg_cadence": 78.31152,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "318s@127bpm78rpm",
-          "duration_secs": 320,
-          "avg_hr": 130,
-          "max_hr": 141,
-          "avg_cadence": 78.99375,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "40s@134bpm80rpm",
-          "duration_secs": 40,
-          "avg_hr": 134,
-          "max_hr": 140,
-          "avg_cadence": 80.3,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 129,
-          "max_hr": 129,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i174522964",
       "date": "2026-08-10",
